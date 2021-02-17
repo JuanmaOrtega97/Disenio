@@ -1,0 +1,46 @@
+ /* Servicios */
+  
+ .servicioderecha {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    margin-top: 50px;
+  }
+  
+  .servicioizquierda {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .serviciotitulo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 15px;
+  
+    p {
+      padding-top: 10px;
+    }
+  }
+  
+  .contenidoservicios {
+    background-color: $azulclaro;
+    text-align: center;
+    padding-bottom: 150px;
+    color: $verde;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+  
+    > div {
+      border-bottom-style: solid;
+      border-bottom-color: #535486;
+      padding-bottom: 15px;
+    }
+  }
+  
+  .empuja {
+    margin-top: 176px;
+  }

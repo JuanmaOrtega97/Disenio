@@ -1,0 +1,19 @@
+.carousel-caption {
+    position: absolute;
+    left: auto;
+    width: 55%;
+    height: 30%;
+    background-color: $azulbootstrap;
+    opacity: 0.9;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+  }
+  
+  .textocarousel {
+    color: white !important;
+  }
+  
+  .left {
+    left: 0%;
+  }

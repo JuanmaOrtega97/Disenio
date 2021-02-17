@@ -1,0 +1,342 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+
+.contenido{
+    background-color: #E7F1F9;
+    text-align: center;
+    padding-bottom: 150px;
+    color: #00695c;
+    margin-top: 176px;
+}
+.contenido *{
+    color: #00695c;
+}
+.contenido p{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+.servicios{
+    background-color: whitesmoke;
+    
+}
+.iconos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.iconos div{
+    color:#00695c !important;
+}
+.contenedor{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    left: auto;
+    width: 55%;
+    height: 30%;
+    background-color: #428bca;
+    opacity: 0.9;
+    bottom:0;
+    right:0;
+    border-radius: 50%;
+    
+    
+}
+.textocarousel{
+    color: white !important;
+}
+.left{
+    left: 0%;
+}
+
+.iconos div{
+    margin-top: 20%;
+}
+
+
+
+.contenedor_mapa{
+    display: flex;
+    justify-content: center;
+}
+.botoncio{
+    color: white !important;
+    background-color: #428bca !important;
+}
+.botoncio:hover {
+    border-color: #428bca !important;
+    background-color: white !important;
+    color: #428bca !important;
+}
+/*HEADER*/
+
+.navbar{
+ position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index:9;
+}
+nav .navbar-nav li a{
+    color: #00695c !important;
+    }
+.navbar-brand {
+    color: #00695c !important;
+    }
+
+
+
+.enlace_cab{
+    color: #00695c;
+    margin: 40px;
+    text-decoration: none;
+}
+.cabecera{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.posicionnav2{
+    right: 0;
+    top: 115px;
+    width: 50%;
+}
+
+#logo{
+    display: flex;
+    flex-basis: 10%;
+}
+  
+  
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:9;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 23px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 8px;
+  }
+  .datos{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+  .datos div{
+    padding-top: 30px;
+  }
+  .carrito a{
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  
+  .icon-bar a:hover {
+      color: black;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+ 
+  
+  .Instagram {
+    background: linear-gradient(43deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    color: white;
+}
+.imgperrete{
+    width: 100%; height:700px;
+}
+iframe{
+    width:1200px;
+    height:450px;
+}
+@media (max-width: 768px) {
+    .perrete img{
+        height: 400px;
+    }
+    .contenedor{
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        
+    }
+    iframe{
+        width:400px;
+        height:400px;
+    }
+    .iconoscategoria img{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .iconoscategoria{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index:9;
+      }
+      .contenido p{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 30px;
+    }
+    .cuentas div{
+        padding-right: 2px;
+    }
+    .movil img{
+        
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .movil{
+
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+    .contenidoservicios{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .servicioderecha{
+        padding-right: 0px !important;
+        padding-left: 50px !important;
+    }
+    .barracategorias{
+        padding-left: 60px !important;
+    }
+    .carousel-caption{
+        visibility: hidden !important;
+    }
+    .carousel-item{
+        height: 231px !important;
+    }
+}
+/* TIENDA */
+.categorias{
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.barracategorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 50px;
+    padding-left: 150px;
+    margin-bottom: 15px;
+}
+.categoria{
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 60px;
+}
+.iconoscategoria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.iconoscategoria>div{
+    margin-top: 15%;
+    background: white;
+    border-radius: 5%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.paco{
+    background-color: #E7F1F9 !important;
+    text-align: center;
+    padding-bottom: 150px;
+    color: #00695c;
+    padding-top: 190px;
+}
+/* CONTACTO */
+.formulario{
+    background-color: #E7F1F9 !important;
+    padding-bottom: 150px;
+    color: #00695c;
+    margin-top: 176px;
+}
+.contenido2{
+    background-color: #E7F1F9;
+    text-align: center;
+    padding-bottom: 150px;
+    color: #00695c;
+}
+/* Servicios */
+.servicioderecha{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    margin-top: 50px;
+
+}
+.servicioizquierda{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50px;
+    margin-top: 50px;
+
+}
+.serviciotitulo{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 15px;
+    
+}
+.serviciotitulo p{
+    padding-top: 10px;
+}
+.contenidoservicios{
+    background-color: #E7F1F9;
+    text-align: center;
+    padding-bottom: 150px;
+    color: #00695c;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+
+}
+.contenidoservicios>div{
+    border-bottom-style: solid;
+    border-bottom-color: #535486 ;
+    padding-bottom: 15px;
+}
+.empuja{
+    margin-top: 176px;
+}

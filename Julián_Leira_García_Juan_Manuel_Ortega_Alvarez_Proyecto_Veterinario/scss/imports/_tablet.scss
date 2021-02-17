@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    .perrete img {
+      height: 400px;
+    }
+  
+    .contenedor {
+      margin: auto;
+      width: 100%;
+      height: 500px;
+    }
+  
+    iframe {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .iconoscategoria {
+      img {
+        width: 60px !important;
+        height: 60px !important;
+      }
+  
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  
+    .icon-bar {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      z-index: 9;
+    }
+  
+    .contenido p {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 30px;
+    }
+  
+    .cuentas div {
+      padding-right: 2px;
+    }
+  
+    .movil {
+      img {
+        width: 200px !important;
+        height: 200px !important;
+      }
+  
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  
+    .contenidoservicios {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+    }
+  
+    .servicioderecha {
+      padding-right: 0px !important;
+      padding-left: 50px !important;
+    }
+  
+    .barracategorias {
+      padding-left: 60px !important;
+    }
+  
+    .carousel-caption {
+      visibility: hidden !important;
+    }
+  
+    .carousel-item {
+      height: 231px !important;
+    }
+  }

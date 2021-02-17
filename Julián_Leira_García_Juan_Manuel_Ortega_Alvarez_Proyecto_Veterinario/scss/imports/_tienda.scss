@@ -1,0 +1,45 @@
+ /* TIENDA */
+  
+ .categorias {
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .barracategorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 50px;
+    padding-left: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .categoria {
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 60px;
+  }
+  
+  .iconoscategoria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    > div {
+      margin-top: 15%;
+      background: white;
+      border-radius: 5%;
+      padding: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  .paco {
+    background-color: $azulclaro !important;
+    text-align: center;
+    padding-bottom: 150px;
+    color: $verde;
+    padding-top: 190px;
+  }
